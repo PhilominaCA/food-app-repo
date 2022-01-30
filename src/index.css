@@ -1,3 +1,6 @@
+*{
+  margin: 0%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,228 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header{
+background-image: linear-gradient(to right,#c4e293,#ece09b);
+height: 10vh;
+align-items: center;
+display: flex;
+padding: 1vw;
+/* color: rgb(185, 207, 60); */
+justify-content: flex-start;
+}
+
+h2{
+  /* color: white; */
+  align-items: center;
+}
+
+b{
+  align-items: center;
+display: flex;
+padding-left: 6vw;
+justify-content: space-between;
+width: 25vw;
+/* color: white; */
+}
+
+.header-menus{
+  font-size: 1.5vw;
+  padding-top: 1vw;
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  font-family: cursive;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.body-div{
+  /* background-image: url('https://c32-cdn.guidingtech.com/optim/assets/189868/HD-Mouth-Watering-Food-Wallpapers-for-Desktop-11_4d470f76dc99e18ad75087b1b8410ea9.jpg?1573743471'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url('https://wallpapercave.com/wp/wp3108352.jpg'); */
+    background-image: url('https://www.teahub.io/photos/full/364-3641192_food-wallpaper-hd-food-background-images-hd.jpg');
+display: flex;
+justify-content: flex-end;
+height: 90vh;
+width: 100vw;
+/* filter: blur(1px);
+-webkit-filter: blur(1px); */
+}
+.food-quote{
+  padding: 8vw;
+  font-size: 5vw;
+  width: 35vw;
+  font-family: Papyrus;
+text-align: end;
+}
+
+.menu-item{
+  background-image: linear-gradient(to left,#c4e293,#ece09b);
+  height: 90vh;
+  width: 89vw;
+  display: flex;
+  padding: 6vw;
+  justify-content: space-evenly;
+}
+
+.contact-info{
+  background-image: linear-gradient(to left,#c4e293,#ece09b);
+  height: 90vh;
+  width: 100vw;
+}
+
+table{
+padding: 2vw;
+text-align: left;
+font-family: cursive;
+font-size: 1.7vw;
+}
+
+th,td{
+  padding: 2vw;
+}
+
+td{
+  width: 20vw;
+  border-left: 2px solid black;
+}
+
+.menu-title{
+  font-family: cursive;
+  display: flex;
+  justify-content: space-between;
+font-size: 1.5vw;
+font-weight: bold;
+align-items: center;
+}
+
+.menu-title span{
+  display: flex;
+  align-items: center;
+}
+
+.menu-list{
+  background-image: linear-gradient(to left,#c4e293,#ece09b);
+  height: 150vh;
+  width: 98.7vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap:5vh;
+  justify-items: center;
+  align-content: space-around;
+}
+
+.menu-list-item{
+  /* box-shadow: 10px 10px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 27vw;
+height: 60vh;
+justify-content: space-between;
+font-family: cursive;
+}
+
+.menu-desc{
+  padding: 1vw;
+}
+
+.menu-list-item img{
+  height: 40vh;
+  width: 27vw;
+}
+
+ .menu-list-head{
+  background-image: linear-gradient(to left,#c4e293,#ece09b);
+  font-family: Papyrus;
+font-size: 3vw;
+padding: 1vw;
+}
+
+.item-name{
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-desc{
+  font-size: 1vw;
+}
+
+.cart-list{
+  background-image: linear-gradient(to left,#c4e293,#ece09b);
+height: 70vw;
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 1vw;
+}
+.cart-head{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 50;
+color: rgb(94, 6, 6);
+font-size: 1.5vw;
+}
+
+.dropbtn {
+  border: none;
+  /* cursor: pointer; */
+  background-color: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover{
+  animation: shake 0.2s; 
+}
+
+.dropdown a
+  {
+    display: flex;
+align-items: center;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-size: 1.2vw;
+  color: black;
+  padding: 0.4vw 0.4vw;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:hover{
+  /* text-decoration:  underline  red; */
+  animation: shake 0.2s; 
+  /* color: #27af39; */
+}
+
+@keyframes shake {
+  100% { transform: translate(1px, -2px) rotate(-1deg); } 
+}
+
+.empty-list{
+  font-family: papyrus;
+  text-align: center;
+  padding: 5vw;
 }
